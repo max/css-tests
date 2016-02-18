@@ -1,0 +1,26 @@
+:root {
+  /* Color palette */
+  --color-brand          : blue;
+  --color-brand-highlight: lightblue;
+  --color-brand-shadow   : darkblue;
+
+  --color-gray      : #666;
+  --color-gray-light: #CCC;
+  --color-gray-dark : #333;
+
+  --color-highlight: rgba(255, 255, 255, 0.05);
+  --color-shadow   : rgba(0, 0, 0, 0.05);
+
+  /* UI */
+  --color-ui: var(--color-gray-light);
+
+  /* Text */
+  --color-text: var(--color-gray-dark);
+
+  /* Links */
+  --color-link      : var(--color-brand);
+  --color-link-hover: var(--color-brand-shadow);
+
+  --color-button      : var(--color-brand);
+  --color-button-hover: var(--color-brand-shadow);
+}
